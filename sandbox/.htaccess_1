@@ -1,0 +1,11 @@
+
+RewriteEngine On
+RewriteBase /
+
+# Redirect root URL to /it/index.php
+RewriteRule ^$ /it/index.php [R=301,L]
+
+# Redirect HTTP to HTTPS
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
