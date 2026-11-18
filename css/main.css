@@ -232,6 +232,43 @@ a:hover, a:focus, a:active {
     margin-left: 100px;
 }
 
+/* -------------------------------------------------
+   Header update notice
+------------------------------------------------- */
+
+#updateNotice {
+    position: absolute;
+
+    top: 10px;      
+    right: 50px;   
+
+    width: 450px;   /* era 470px */
+
+    text-align: center;
+
+    color: #d02020;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 1.3;
+
+    z-index: 350;
+}
+
+#updateNotice strong {
+    font-size: 12px;      /* invece di 13 */
+    font-weight: bold;
+}
+
+#updateNotice a,
+#updateNotice a:visited {
+    color: #d02020;
+    font-weight: bold;
+}
+
+#updateNotice a:hover {
+    text-decoration: underline;
+}
+
 /* google translate div
 ----------------------------------------------- */
 div#translate {
@@ -302,15 +339,12 @@ body {top: 0px !important; position: static !important; }
 iframe.goog-te-banner-frame,.goog-te-balloon-frame{display:none !important;}
 
 div.btn {
-    /*position: relative;
-    right: 15%;
-    background-color:#EEE ;*/
-
-    background-color:transparent;
+    background-color: transparent;
     position: absolute;
     right: 1%;
     top: 1%;
     padding: 0px;
+    z-index: 1000;
 }
 
 .btn_language {
@@ -858,4 +892,16 @@ button.nav-toggle {
 
 .red_border {
     border: 5px solid red;
+}
+
+/* Hide Google Translate banner */
+.goog-te-banner-frame,
+iframe.goog-te-banner-frame,
+iframe.skiptranslate {
+    display: none !important;
+}
+
+/* Prevent Google Translate from shifting the page chatGPT 261117 */
+body {
+    top: 0 !important;
 }

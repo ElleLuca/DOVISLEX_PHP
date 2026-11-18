@@ -77,6 +77,9 @@ appendORreplace('#F1',"En particulier, les associés du Cabinet - outre les affa
     appendORreplace('#F33c', "Pollution");
     appendORreplace('#F37', "Taxe d'Etat de débarquement des produits pétroliers");
     appendORreplace('#E301', "Fiscalité");
+    appendORreplace('#E301b', "Fiscalité");
+    appendORreplace('#E301c', "Conventions préventives de la double imposition");
+     appendORreplace('#E301d', "Impôt sur le revenu - pensions de retraite - travailleurs du secteur public");
     appendORreplace('.Fm01', "Concurrence");
     appendORreplace('.Em01', "Droit agricole");
     appendORreplace('.Em02', "Importations des pays tiers");
@@ -110,6 +113,8 @@ appendORreplace('#F1',"En particulier, les associés du Cabinet - outre les affa
     appendORreplace('#F304', "Prix du sucre");
     appendORreplace('#Fm33',"subventions de l'UE");
     appendORreplace('#A101',"Libre prestation des services");
+    appendORreplace('#F401',"Services juridiques exclus du code des contrats publics");
+    appendORreplace('#F402',"Communication du CIG - Paiement de la contribution à l'ANAC");
     
 
 //

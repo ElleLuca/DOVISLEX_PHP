@@ -56,7 +56,25 @@ removed for English
     </div>
     <h4> Studio legale • Cabinet d'Avocats • International Law Firm • Anwaltskanzlei • Abogados</h4>
 
-    <?php include '../commonHTML/commonHeader.php'; ?>
+<div id="updateNotice">
+
+    <strong>
+        Sito in corso di aggiornamento<br>
+        La nuova versione sarà presto on-line
+    </strong>
+
+    <br>
+    Per rimanere informati sull'attività dello Studio:
+    <br>
+
+    <a href="https://www.linkedin.com/company/donà-viscardini-lawyers/"
+       target="_blank">
+        linkedin.com/company/donà-viscardini-lawyers
+    </a>
+
+</div>
+
+<?php include '../commonHTML/commonHeader.php'; ?>
 
     <div class="middle-bar"></div>
 </div>
